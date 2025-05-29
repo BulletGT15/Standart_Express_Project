@@ -1,0 +1,234 @@
+.Dignity{
+    width: 100%;
+    height: 17vh;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 19vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img{
+            width: 3.5vw;
+        }
+        p{
+            margin-left: 1.5vw;
+            font-family: 'Euclid Circular A SemiBold';
+            font-size: 2.7vh;
+            width: 11vw;
+        }
+        &:last-of-type{
+            p{
+                width: 14vw;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .Dignity{
+    width: 100%;
+    height: 17vh;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 23vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img{
+            width: 3.5vw;
+        }
+        p{
+            margin-left: 1.5vw;
+            font-family: 'Euclid Circular A SemiBold';
+            font-size: 2.7vh;
+            width: 13vw;
+        }
+        &:last-of-type{
+            p{
+                width: 14vw;
+            }
+        }
+    }
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .Dignity{
+    width: 100%;
+    height: 11vh;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 26vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img{
+            width: 3.5vw;
+        }
+        p{
+            margin-left: 1.5vw;
+            font-family: 'Euclid Circular A SemiBold';
+            font-size: 2vh;
+            width: 18vw;
+        }
+        &:last-of-type{
+            p{
+                width: 14vw;
+            }
+        }
+    }
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .Dignity{
+    width: 100%;
+    height: 11vh;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 26vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img{
+            width: 3.5vw;
+        }
+        p{
+            margin-left: 1.5vw;
+            font-family: 'Euclid Circular A SemiBold';
+            font-size: 2vh;
+            width: 18vw;
+        }
+        &:last-of-type{
+            p{
+                width: 14vw;
+            }
+        }
+    }
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .Dignity{
+    width: 100%;
+    height: 17vh;
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: space-around;
+    div{
+        width: 28vw;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 14vw;
+        }
+        p{
+            text-align: center;
+            margin-left: 1.5vw;
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.3vh;
+            width: 100%;
+            color: white;
+        }
+        &:last-of-type{
+            p{
+                width: 14vw;
+            }
+        }
+    }
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .Dignity{
+    width: 100%;
+    height: 17vh;
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: space-around;
+    div{
+        width: 28vw;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 14vw;
+        }
+        p{
+            text-align: center;
+            margin-left: 1.5vw;
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.3vh;
+            width: 100%;
+            color: white;
+        }
+        &:last-of-type{
+            p{
+                width: 14vw;
+            }
+        }
+    }
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .Dignity{
+    width: 100%;
+    height: 17vh;
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: space-around;
+    div{
+        width: 28vw;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 14vw;
+        }
+        p{
+            text-align: center;
+            margin-left: 1.5vw;
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.3vh;
+            width: 100%;
+            color: white;
+        }
+        &:last-of-type{
+            p{
+                width: 14vw;
+            }
+        }
+    }
+    }
+}

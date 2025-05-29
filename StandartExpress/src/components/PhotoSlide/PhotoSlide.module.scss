@@ -1,0 +1,375 @@
+.PhotoSlide{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F4F4;
+    align-content: space-evenly;
+    justify-content: center;
+    P{
+        width: 100%;
+        font-size: 5vh;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+    }
+    .mySwiper{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+          img{
+            width: 29vw;
+            height: 31vw;
+            padding: 3vh;
+            border-radius: 2vh;
+            background-color: white;
+        }
+    }
+    .swiperbuttonPrev{
+        width: 2.5vw;
+        height: 5vh;
+        margin-right: 1vw;
+    }
+    .swiperbuttonNext{
+        width: 2.5vw;
+        height: 5vh;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        border-radius: 15vh;
+        background-color: white;
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        color: #ED9121;
+    }
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .PhotoSlide{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F4F4;
+    align-content: space-evenly;
+    justify-content: center;
+    P{
+        width: 100%;
+        font-size: 4vw;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+    }
+    .mySwiper{
+        width: 100%;
+        height: 58vh;
+        display: flex;
+        justify-content: center;
+          img{
+            width: 28vw;
+            height: 32vw;
+            padding: 2.5vh;
+            border-radius: 2vh;
+            background-color: white;
+        }
+    }
+    .swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        width: 3.8vw;
+        height: 6vh;
+        border-radius: 15vh;
+        background-color: white;
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 2.5vw;
+        color: #ED9121;
+        transition: 0.3s;
+        &:hover{
+            background-color: #ED9121;
+            color: white;
+            border: 0.2vh solid #ED9121;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .PhotoSlide{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F4F4;
+    align-content: space-evenly;
+    justify-content: center;
+    P{
+        width: 100%;
+        font-size: 4vw;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+    }
+    .mySwiper{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+          img{
+            width: 28vw;
+            height: 33vw;
+            padding: 2.5vh;
+            border-radius: 2vh;
+            background-color: white;
+        }
+    }
+    .swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        min-width: 4.5vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: white;
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 2.5vw;
+        color: #ED9121;
+        transition: 0.3s;
+        &:hover{
+            background-color: #ED9121;
+            color: white;
+            border: 0.2vh solid #ED9121;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .PhotoSlide{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F4F4;
+    align-content: space-evenly;
+    justify-content: center;
+    P{
+        width: 100%;
+        font-size: 4vw;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+    }
+    .mySwiper{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+          img{
+            width: 28vw;
+            height: 35vw;
+            padding: 1.6vh;
+            border-radius: 2vh;
+            background-color: white;
+        }
+    }
+    .swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        min-width: 5.5vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: white;
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3.5vw;
+        color: #ED9121;
+        transition: 0.3s;
+        &:hover{
+            background-color: #ED9121;
+            color: white;
+            border: 0.2vh solid #ED9121;
+        }
+    }
+}
+}
+
+
+@media screen and (max-width: 425px) {
+    .PhotoSlide{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F4F4;
+    align-content: space-evenly;
+    justify-content: center;
+    P{
+        width: 100%;
+        font-size: 9vw;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+    }
+    .mySwiper{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+          img{
+            width: 90%;
+            height: 94%;
+            padding: 1.6vh;
+            border-radius: 2vh;
+            background-color: white;
+        }
+    }
+    .swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        min-width: 11vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: white;
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 7vw;
+        color: #ED9121;
+        transition: 0.3s;
+        &:hover{
+            background-color: #ED9121;
+            color: white;
+            border: 0.2vh solid #ED9121;
+        }
+    }
+}
+}
+
+
+@media screen and (max-width: 375px) {
+    .PhotoSlide{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F4F4;
+    align-content: space-evenly;
+    justify-content: center;
+    P{
+        width: 100%;
+        font-size: 9vw;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+    }
+    .mySwiper{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+          img{
+            width: 90%;
+            height: 94%;
+            padding: 1.6vh;
+            border-radius: 2vh;
+            background-color: white;
+        }
+    }
+    .swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        min-width: 11vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: white;
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 7vw;
+        color: #ED9121;
+        transition: 0.3s;
+        &:hover{
+            background-color: #ED9121;
+            color: white;
+            border: 0.2vh solid #ED9121;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 320px) {
+    .PhotoSlide{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F4F4;
+    align-content: space-evenly;
+    justify-content: center;
+    P{
+        width: 100%;
+        font-size: 9vw;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+    }
+    .mySwiper{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+          img{
+            width: 91%;
+            height: 86%;
+            padding: 1.6vh;
+            border-radius: 2vh;
+            background-color: white;
+        }
+    }
+    .swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        min-width: 15.5vw;
+        height: 6vh;
+        border-radius: 15vh;
+        background-color: white;
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 9vw;
+        color: #ED9121;
+        transition: 0.3s;
+        &:hover{
+            background-color: #ED9121;
+            color: white;
+            border: 0.2vh solid #ED9121;
+        }
+    }
+}
+}
+

@@ -1,0 +1,269 @@
+.AboutUsMain{
+    width: 100%;
+    height: 63.5vh;
+    background-image: url(src/pages/AboutUs/components/AboutUsMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        &:first-of-type{
+            width: 37vw;
+            font-size: 7.3vh;
+            line-height: 7.5vh;
+            font-family: 'Euclid Circular A Bold';
+        }
+        &:last-of-type{
+            width: 35vw;
+            margin-top: 2vh;
+            font-size: 2.2vh;
+            line-height: 3vh;
+            padding-right: 2vw;
+            font-family: 'Euclid Circular A Light';
+        }
+    }
+    img{
+        width: 38vw;
+        height: 55vh;
+        border-radius: 3vh;
+    }
+}
+
+
+
+@media screen and (max-width: 1440px){
+.AboutUsMain{
+    width: 100%;
+    height: 55vh;
+    background-image: url(src/pages/AboutUs/components/AboutUsMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        &:first-of-type{
+            width: 37vw;
+            font-size: 2.5vw;
+            line-height: 5vh;
+            font-family: 'Euclid Circular A Bold';
+        }
+        &:last-of-type{
+            width: 35vw;
+            margin-top: 2vh;
+            font-size: 1.2vw;
+            line-height: 2.4vh;
+            padding-right: 2vw;
+            font-family: 'Euclid Circular A Light';
+        }
+    }
+    img{
+        width: 38vw;
+        height: 45vh;
+        border-radius: 3vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px){
+.AboutUsMain{
+    width: 100%;
+    height: 40vh;
+    background-image: url(src/pages/AboutUs/components/AboutUsMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        &:first-of-type{
+            width: 37vw;
+            font-size: 2.5vw;
+            line-height: 4vh;
+            font-family: 'Euclid Circular A Bold';
+        }
+        &:last-of-type{
+            width: 35vw;
+            margin-top: 2vh;
+            font-size: 1.1vw;
+            line-height: 2vh;
+            padding-right: 2vw;
+            font-family: 'Euclid Circular A Light';
+        }
+    }
+    img{
+        width: 40vw;
+        height: 35vh;
+        border-radius: 3vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px){
+.AboutUsMain{
+    width: 100%;
+    height: 32vh;
+    background-image: url(src/pages/AboutUs/components/AboutUsMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        &:first-of-type{
+            width: 37vw;
+            font-size: 2.5vw;
+            line-height: 2.75vh;
+            font-family: 'Euclid Circular A Bold';
+        }
+        &:last-of-type{
+            width: 35vw;
+            margin-top: 1vh;
+            font-size: 1vw;
+            line-height: 1.5vh;
+            padding-right: 2vw;
+            font-family: 'Euclid Circular A Light';
+        }
+    }
+    img{
+        width: 40vw;
+        height: 25vh;
+        border-radius: 3vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px){
+.AboutUsMain{
+    width: 100%;
+    height: 60vh;
+    background-image: url(src/pages/AboutUs/components/AboutUsMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 2vh;
+    p{
+        &:first-of-type{
+            width: 90%;
+            font-size: 4vw;
+            line-height: 2.75vh;
+            margin-left: 5vw;
+            font-family: 'Euclid Circular A Bold';
+        }
+        &:last-of-type{
+            width: 90%;
+            margin-top: 1vh;
+            font-size: 2.5vw;
+            line-height: 1.5vh;
+            margin-left: 5vw;
+            font-family: 'Euclid Circular A Light';
+        }
+    }
+    img{
+        width: 85%;
+        height: 30vh;
+        border-radius: 3vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 375px){
+.AboutUsMain{
+    width: 100%;
+    height: 55vh;
+    background-image: url(src/pages/AboutUs/components/AboutUsMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 2vh;
+    p{
+        &:first-of-type{
+            width: 90%;
+            font-size: 4vw;
+            line-height: 2.75vh;
+            margin-left: 5vw;
+            font-family: 'Euclid Circular A Bold';
+        }
+        &:last-of-type{
+            width: 90%;
+            margin-top: 1vh;
+            font-size: 2.5vw;
+            line-height: 1.5vh;
+            margin-left: 5vw;
+            font-family: 'Euclid Circular A Light';
+        }
+    }
+    img{
+        width: 85%;
+        height: 27vh;
+        border-radius: 3vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 320px){
+.AboutUsMain{
+    width: 100%;
+    height: 50vh;
+    background-image: url(src/pages/AboutUs/components/AboutUsMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 2vh;
+    p{
+        &:first-of-type{
+            width: 90%;
+            font-size: 4vw;
+            line-height: 2.75vh;
+            margin-left: 5vw;
+            font-family: 'Euclid Circular A Bold';
+        }
+        &:last-of-type{
+            width: 90%;
+            margin-top: 1vh;
+            font-size: 2.5vw;
+            line-height: 1.5vh;
+            margin-left: 5vw;
+            font-family: 'Euclid Circular A Light';
+        }
+    }
+    img{
+        width: 85%;
+        height: 23vh;
+        border-radius: 3vh;
+    }
+}
+}

@@ -1,0 +1,58 @@
+.CarPark{
+    width: 100%;
+    height: 67vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 37vw;
+        height: 38vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 6.8vh;
+            line-height: 7.5vh;
+            span{
+                font-size: 4.2vh;
+                padding: 1.4vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 2.1vh;
+        }
+        button{
+            width: 17.7vw;
+            height: 8.8vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 2.3vh;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 3vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 38vw;
+        height: 85%;
+    }
+}

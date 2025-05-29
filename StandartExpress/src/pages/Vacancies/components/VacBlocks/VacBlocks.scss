@@ -1,0 +1,502 @@
+.VacBlocks{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    p{
+        width: 100%;
+        font-size: 5vh;
+        font-family: 'Euclid Circular A Bold';
+        text-align: center;
+        line-height: 5vh;
+        span{
+            font-size: 2vh;
+            font-family: 'Euclid Circular A Regular';
+        }
+    }
+    div{
+        width: 76%;
+        height: 65vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            width: 28%;
+            height: 55vh;
+            padding: 3vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            border-radius: 2vh;
+            background-color: #F4F4F4;
+            img{
+                width: 100%;
+                height: 27vh;
+            }
+            p{
+                font-size: 2.8vh;
+                font-family: 'Euclid Circular A SemiBold';
+                text-align: start;
+            }
+            div{
+                width: 100%;
+                height: 23vh;
+                padding: 0;
+                border-radius: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: start;
+                p{
+                    font-size: 2vh;
+                    margin-bottom: 0.5vh;
+                    font-family: 'Euclid Circular A Medium';
+                    text-align: start;
+                }
+                li{
+                    width: 100%;
+                    font-size: 1.8vh;
+                    list-style-type: disc;
+                    font-family: 'Euclid Circular A Regular';
+                    margin-left: 0.5vw;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1440px){
+    .VacBlocks{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    p{
+        width: 100%;
+        font-size: 3.7vw;
+        font-family: 'Euclid Circular A Bold';
+        text-align: center;
+        line-height: 4vh;
+        span{
+            font-size: 1.3vw;
+            font-family: 'Euclid Circular A Regular';
+        }
+    }
+    div{
+        width: 76%;
+        height: 57vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            width: 28%;
+            height: 50vh;
+            padding: 3vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            border-radius: 2vh;
+            background-color: #F4F4F4;
+            img{
+                width: 100%;
+                height: 24vh;
+            }
+            p{
+                font-size: 1.7vw;
+                font-family: 'Euclid Circular A SemiBold';
+                text-align: start;
+            }
+            div{
+                width: 100%;
+                height: 20vh;
+                padding: 0;
+                border-radius: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: start;
+                p{
+                    font-size: 1.2vw;
+                    margin-bottom: 0.5vh;
+                    font-family: 'Euclid Circular A Medium';
+                    text-align: start;
+                }
+                li{
+                    width: 100%;
+                    font-size: 1vw;
+                    list-style-type: disc;
+                    font-family: 'Euclid Circular A Regular';
+                    margin-left: 0.5vw;
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .VacBlocks{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    p{
+        width: 100%;
+        font-size: 3.7vw;
+        font-family: 'Euclid Circular A Bold';
+        text-align: center;
+        line-height: 4vh;
+        span{
+            font-size: 1.3vw;
+            font-family: 'Euclid Circular A Regular';
+        }
+    }
+    div{
+        width: 86%;
+        height: 46vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            width: 26%;
+            height: 39vh;
+            padding: 3vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            border-radius: 2vh;
+            background-color: #F4F4F4;
+            img{
+                width: 100%;
+                height: 20vh;
+            }
+            p{
+                font-size: 1.7vw;
+                font-family: 'Euclid Circular A SemiBold';
+                text-align: start;
+            }
+            div{
+                width: 100%;
+                height: 17vh;
+                padding: 0;
+                border-radius: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: start;
+                p{
+                    font-size: 1.2vw;
+                    margin-bottom: 0.5vh;
+                    font-family: 'Euclid Circular A Medium';
+                    text-align: start;
+                }
+                li{
+                    width: 100%;
+                    font-size: 1vw;
+                    list-style-type: disc;
+                    font-family: 'Euclid Circular A Regular';
+                    margin-left: 0.5vw;
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px){
+    .VacBlocks{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    p{
+        width: 100%;
+        font-size: 3.7vw;
+        font-family: 'Euclid Circular A Bold';
+        text-align: center;
+        line-height: 3vh;
+        span{
+            font-size: 1.3vw;
+            font-family: 'Euclid Circular A Regular';
+        }
+    }
+    div{
+        width: 90%;
+        height: 36vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            width: 27%;
+            height: 32vh;
+            padding: 2vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            border-radius: 2vh;
+            background-color: #F4F4F4;
+            img{
+                width: 100%;
+                height: 15vh;
+            }
+            p{
+                font-size: 1.7vw;
+                font-family: 'Euclid Circular A SemiBold';
+                text-align: start;
+            }
+            div{
+                width: 100%;
+                height: 15vh;
+                padding: 0;
+                border-radius: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: start;
+                p{
+                    font-size: 1.2vw;
+                    margin-bottom: 0.5vh;
+                    font-family: 'Euclid Circular A Medium';
+                    text-align: start;
+                }
+                li{
+                    width: 100%;
+                    font-size: 1vw;
+                    list-style-type: disc;
+                    font-family: 'Euclid Circular A Regular';
+                    margin-left: 0.5vw;
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px){
+    .VacBlocks{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    p{
+        width: 100%;
+        font-size: 7vw;
+        font-family: 'Euclid Circular A Bold';
+        text-align: center;
+        line-height: 2.5vh;
+        span{
+            font-size: 3vw;
+            font-family: 'Euclid Circular A Regular';
+        }
+    }
+    div{
+        width: 90%;
+        height: 140vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 58%;
+            height: 40vh;
+            padding: 2vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            border-radius: 2vh;
+            background-color: #F4F4F4;
+            img{
+                width: 100%;
+                height: 15vh;
+            }
+            p{
+                font-size: 5vw;
+                font-family: 'Euclid Circular A SemiBold';
+                text-align: start;
+            }
+            div{
+                width: 100%;
+                height: 19vh;
+                padding: 0;
+                border-radius: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: start;
+                p{
+                    font-size: 4vw;
+                    margin-bottom: 0.5vh;
+                    font-family: 'Euclid Circular A Medium';
+                    text-align: start;
+                }
+                li{
+                    width: 100%;
+                    font-size: 2.5vw;
+                    list-style-type: disc;
+                    font-family: 'Euclid Circular A Regular';
+                    margin-left: 0.5vw;
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 375px){
+    .VacBlocks{
+    width: 100%;
+    height: 135vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    p{
+        width: 100%;
+        font-size: 7vw;
+        font-family: 'Euclid Circular A Bold';
+        text-align: center;
+        line-height: 2.5vh;
+        span{
+            font-size: 3vw;
+            font-family: 'Euclid Circular A Regular';
+        }
+    }
+    div{
+        width: 90%;
+        height: 120vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 60%;
+            height: 35vh;
+            padding: 2vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            border-radius: 2vh;
+            background-color: #F4F4F4;
+            img{
+                width: 100%;
+                height: 15vh;
+            }
+            p{
+                font-size: 5vw;
+                font-family: 'Euclid Circular A SemiBold';
+                text-align: start;
+            }
+            div{
+                width: 100%;
+                height: 14vh;
+                padding: 0;
+                border-radius: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: start;
+                p{
+                    font-size: 4vw;
+                    margin-bottom: 0.5vh;
+                    font-family: 'Euclid Circular A Medium';
+                    text-align: start;
+                }
+                li{
+                    width: 100%;
+                    font-size: 2.5vw;
+                    list-style-type: disc;
+                    font-family: 'Euclid Circular A Regular';
+                    margin-left: 0.5vw;
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 320px){
+    .VacBlocks{
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    p{
+        width: 100%;
+        font-size: 7vw;
+        font-family: 'Euclid Circular A Bold';
+        text-align: center;
+        line-height: 2.5vh;
+        span{
+            font-size: 3vw;
+            font-family: 'Euclid Circular A Regular';
+        }
+    }
+    div{
+        width: 90%;
+        height: 105vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 67%;
+            height: 30vh;
+            padding: 2vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            border-radius: 2vh;
+            background-color: #F4F4F4;
+            img{
+                width: 100%;
+                height: 15vh;
+            }
+            p{
+                font-size: 5vw;
+                font-family: 'Euclid Circular A SemiBold';
+                text-align: start;
+            }
+            div{
+                width: 100%;
+                height: 14vh;
+                padding: 0;
+                border-radius: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: start;
+                p{
+                    font-size: 4vw;
+                    margin-bottom: 0.5vh;
+                    font-family: 'Euclid Circular A Medium';
+                    text-align: start;
+                }
+                li{
+                    width: 100%;
+                    font-size: 2.5vw;
+                    list-style-type: disc;
+                    font-family: 'Euclid Circular A Regular';
+                    margin-left: 0.5vw;
+                }
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,214 @@
+.TextSec{
+    width: 100%;
+    height: 62vh;
+    background-image: url(src/pages/Homepage/components/TextSec/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    p:first-of-type{
+        font-family: 'Euclid Circular A Bold';
+        font-size: 4.5vh;
+        width: 55vw;
+        padding-left: 28vw;
+        padding-right: 28vw;
+        text-align: center;
+    }
+    p:last-of-type{
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3.5vh;
+        margin-top: 2vh;
+    }
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .TextSec{
+    width: 100%;
+    height: 62vh;
+    background-image: url(src/pages/Homepage/components/TextSec/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    p:first-of-type{
+        font-family: 'Euclid Circular A Bold';
+        font-size: 4.5vh;
+        width: 55vw;
+        padding-left: 28vw;
+        padding-right: 28vw;
+        text-align: center;
+    }
+    p:last-of-type{
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3.5vh;
+        margin-top: 2vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .TextSec{
+    width: 100%;
+    height: 40vh;
+    background-image: url(src/pages/Homepage/components/TextSec/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    p:first-of-type{
+        font-family: 'Euclid Circular A Bold';
+        font-size: 4vh;
+        width: 80vw;
+        padding: 0;
+        text-align: center;
+    }
+    p:last-of-type{
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        margin-top: 2vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .TextSec{
+    width: 100%;
+    height: 35vh;
+    background-image: url(src/pages/Homepage/components/TextSec/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    p:first-of-type{
+        font-family: 'Euclid Circular A Bold';
+        font-size: 3.5vh;
+        width: 80vw;
+        padding: 0;
+        text-align: center;
+    }
+    p:last-of-type{
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 2.5vh;
+        margin-top: 2vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .TextSec{
+    width: 100%;
+    height: 25vh;
+    background-image: url(src/pages/Homepage/components/TextSec/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    p:first-of-type{
+        font-family: 'Euclid Circular A Bold';
+        font-size: 2vh;
+        width: 85vw;
+        padding: 0;
+        text-align: center;
+    }
+    p:last-of-type{
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 1.5vh;
+        margin-top: 2vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .TextSec{
+    width: 100%;
+    height: 20vh;
+    background-image: url(src/pages/Homepage/components/TextSec/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    p:first-of-type{
+        font-family: 'Euclid Circular A Bold';
+        font-size: 1.7vh;
+        width: 85vw;
+        padding: 0;
+        text-align: center;
+    }
+    p:last-of-type{
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 1.2vh;
+        margin-top: 2vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .TextSec{
+    width: 100%;
+    height: 17vh;
+    background-image: url(src/pages/Homepage/components/TextSec/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    p:first-of-type{
+        font-family: 'Euclid Circular A Bold';
+        font-size: 1.5vh;
+        width: 85vw;
+        padding: 0;
+        text-align: center;
+    }
+    p:last-of-type{
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 1vh;
+        margin-top: 2vh;
+    }
+}
+}

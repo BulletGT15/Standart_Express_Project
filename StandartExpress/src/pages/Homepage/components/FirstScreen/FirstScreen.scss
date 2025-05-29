@@ -1,0 +1,372 @@
+main{
+    width: 100%;
+    height: 67vh;
+    background-image: url(src/pages/Homepage/components/FirstScreen/images/bg.png);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 30%;
+        height: 50%;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin-right: 3vw;
+        p:first-of-type{
+            width: 100%;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3vw;
+            line-height: 7.5vh;
+            span{
+                font-size: 4.2vh;
+                padding: 1.4vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 2.16vh;
+        }
+        button{
+            width: 60%;
+            height: 25%;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 2.3vh;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 3vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    .rabotiaga{
+      width: 35%;
+      height: 70%;
+      padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 1440px){
+main {
+  width: 100%;
+  height: 50vh;
+  background-image: url(src/pages/Homepage/components/FirstScreen/images/bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  div {
+    width: auto;
+    max-width: 28%;
+    height: 45%;
+    display: flex;
+    p:first-of-type {
+      font-family: 'Euclid Circular A Bold';
+      font-size: 2.7vw;
+      line-height: 1.3;
+      span {
+        font-size: 1.8vw;
+        padding: 1% 3%;
+        border-radius: 2em;
+        background-color: #ED9121;
+        color: white;
+        display: inline-block;
+      }
+    }
+
+    p:last-of-type {
+      font-family: 'Euclid Circular A Regular';
+      font-size: 1vw;
+      margin-bottom: 3%;
+    }
+
+    button {
+      width: 65%;
+      padding: 2.5% 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      background-color: black;
+      color: white;
+      font-family: 'Euclid Circular A Bold';
+      font-size: 1.1vw;
+      border-radius: 2.5em;
+      border: none;
+
+      img {
+        width: 1.2vw;
+        height: auto;
+      }
+    }
+  }
+
+  .rabotiaga {
+    width: 32%;
+    height: 70%;
+  }
+}
+}
+
+@media screen and (max-width: 1232px){
+  main{
+    height: 45vh;
+  }
+}
+@media screen and (max-width: 1128px){
+  main{
+    height: 43vh;
+  }
+}
+
+@media screen and (max-width: 1024px){
+main {
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+  min-height: 40vh;
+    div {
+      width: 35%;
+      height: 20vh;
+      margin: 2vw;
+      p:first-of-type {
+        font-size: 3.5vw;
+        span {
+          font-size: 2vw;
+        }
+      }
+      p:last-of-type {
+        font-size: 1.1vw;
+      }
+      button {
+        font-size: 1.2vw;
+        width: 65%;
+        height: 5vh;
+        img {
+          width: 1.5vw;
+        }
+      }
+    }
+    .rabotiaga {
+      width: 40%;
+    }
+  }
+}
+
+
+
+
+/* Медиазапрос для планшетов (768px) */
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    height: 40vh;
+    gap: 2vh;
+    div {
+      width: 85%;
+      height: 15vh;
+      max-width: none;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      p:first-of-type {
+        font-size: 3.5vw;
+        text-align: center;
+        span {
+          font-size: 3vw;
+        }
+      }
+      p:last-of-type {
+        font-size: 2vw;
+        text-align: center;
+      }
+      button {
+        width: 35%;
+        margin-inline: 2vw;
+        height: 5.5vh;
+        font-size: 1.7vw;
+        img {
+          width: 2.5vw;
+        }
+      }
+    }
+    .rabotiaga {
+      width: 37%;
+      max-height: 20vh;
+      order: 2;
+    }
+  }
+}
+
+
+
+/* Медиазапрос для мобильных (425px) */
+@media screen and (max-width: 425px) {
+  main {
+    min-height: 70vh;
+    background-image: none;
+    background-color: #2F2F2F;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2vh;
+    div {
+      width: 95%;
+      min-height: 25vh;
+      p:first-of-type {
+        font-size: 4vh; /* Увеличенный шрифт */
+        line-height: 4vh;
+        color: white;
+        span {
+          font-size: 3.2vh;
+          padding: 1vh;
+          margin-top: 1vh;
+        }
+      }
+      p:last-of-type {
+        font-size: 1.4vh;
+        margin-bottom: 4vh;
+        line-height: 3vh;
+        color: white;
+      }
+      button {
+        width: 60%; /* Широкая кнопка для удобного нажатия */
+        height: 6vh;
+        display: flex;
+        font-size: 1.75vh;
+        border-radius: 3.5vh;
+        background-color: #ED9121;
+        img {
+          width: 4vw;
+          height: 2.8vh;
+          margin: 0;
+        }
+      }
+    }
+    .rabotiaga{
+      width: 90%;
+      min-height: 30vh;
+      margin-top: 2vh;
+    }
+  }
+}
+
+
+
+/* Медиазапрос для мобильных (375px) */
+@media screen and (max-width: 375px) {
+    main {
+    min-height: 55vh;
+    background-image: none;
+    background-color: #2F2F2F;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2vh;
+    div {
+      width: 95%;
+      min-height: 22vh;
+      p:first-of-type {
+        font-size: 3vh; /* Увеличенный шрифт */
+        line-height: 4vh;
+        color: white;
+        span {
+          font-size: 2.5vh;
+          padding: 0.7vh;
+          margin-top: 1vh;
+        }
+      }
+      p:last-of-type {
+        font-size: 1.3vh;
+        margin-bottom: 4vh;
+        line-height: 3vh;
+        color: white;
+      }
+      button {
+        width: 55%; /* Широкая кнопка для удобного нажатия */
+        height: 5.5vh;
+        display: flex;
+        font-size: 1.5vh;
+        border-radius: 3.5vh;
+        background-color: #ED9121;
+        img {
+          width: 4vw;
+          height: 2vh;
+          margin: 0;
+        }
+      }
+    }
+    .rabotiaga{
+      width: 90%;
+      min-height: 26vh;
+      margin-top: 2vh;
+    }
+  }
+}
+
+
+
+/* Медиазапрос для мобильных (320px) */
+@media screen and (max-width: 320px) {
+        main {
+    min-height: 55vh;
+    background-image: none;
+    background-color: #2F2F2F;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2vh;
+    div {
+      width: 95%;
+      min-height: 22vh;
+      p:first-of-type {
+        font-size: 3vh; /* Увеличенный шрифт */
+        line-height: 4vh;
+        color: white;
+        span {
+          font-size: 2.5vh;
+          padding: 0.7vh;
+          margin-top: 1vh;
+        }
+      }
+      p:last-of-type {
+        font-size: 1.3vh;
+        margin-bottom: 4vh;
+        line-height: 3vh;
+        color: white;
+      }
+      button {
+        width: 55%; /* Широкая кнопка для удобного нажатия */
+        height: 5vh;
+        display: flex;
+        font-size: 1.3vh;
+        border-radius: 3.5vh;
+        background-color: #ED9121;
+        img {
+          width: 4vw;
+          height: 2vh;
+          margin: 0;
+        }
+      }
+    }
+    .rabotiaga{
+      width: 90%;
+      min-height: 26vh;
+      margin-top: 2vh;
+    }
+  }
+}

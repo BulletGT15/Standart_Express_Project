@@ -1,0 +1,135 @@
+.rutube-player-container{
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    iframe{
+        width: 77vw;
+        height: 62vh;
+        border: none;
+        border-radius: 3vh;
+    }
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .rutube-player-container{
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    iframe{
+        width: 77vw;
+        height: 62vh;
+        border: none;
+        border-radius: 3vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .rutube-player-container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    iframe{
+        width: 77vw;
+        height: 50vh;
+        border: none;
+        border-radius: 3vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .rutube-player-container{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    iframe{
+        width: 80vw;
+        height: 35vh;
+        border: none;
+        border-radius: 3vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .rutube-player-container{
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    iframe{
+        width: 85vw;
+        height: 23vh;
+        border: none;
+        border-radius: 2vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .rutube-player-container{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    iframe{
+        width: 85vw;
+        height: 20vh;
+        border: none;
+        border-radius: 2vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .rutube-player-container{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    iframe{
+        width: 85vw;
+        height: 17vh;
+        border: none;
+        border-radius: 2vh;
+    }
+}
+}

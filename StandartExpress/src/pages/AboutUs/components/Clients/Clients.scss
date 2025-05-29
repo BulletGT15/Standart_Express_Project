@@ -1,0 +1,499 @@
+.Clients{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: #F4F4F4;
+    p:first-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        font-size: 5.6vh;
+    }
+    p:last-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 2.2vh;
+    }
+    div{
+        width: 75%;
+        height: 16vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &:first-of-type{
+            img:first-of-type{
+                height: 7vh;
+            }
+            img:nth-of-type(2){
+                height: 7vh;
+            }
+            img:nth-of-type(3){
+                height: 7vh;
+            }
+            img:nth-of-type(4){
+                height: 7vh;
+            }
+            img:last-of-type{
+                height: 7vh;
+            }
+        }
+        &:last-of-type{
+            img:first-of-type{
+                height: 12vh;
+            }
+            img:nth-of-type(2){
+                height: 12vh;
+            }
+            img:nth-of-type(3){
+                height: 12vh;
+            }
+            img:last-of-type{
+                height: 12vh;
+            }
+        }
+        p:first-of-type{
+            width: 100%;
+            height: 3vh;
+            text-align: left;
+            font-family: 'Euclid Circular A Medium';
+            font-size: 2vh;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1440px){
+    .Clients{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: #F4F4F4;
+    p:first-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        font-size: 5.6vh;
+    }
+    p:last-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 2.2vh;
+    }
+    div{
+        width: 75%;
+        height: 16vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &:first-of-type{
+            img:first-of-type{
+                height: 7vh;
+            }
+            img:nth-of-type(2){
+                height: 7vh;
+            }
+            img:nth-of-type(3){
+                height: 7vh;
+            }
+            img:nth-of-type(4){
+                height: 7vh;
+            }
+            img:last-of-type{
+                height: 7vh;
+            }
+        }
+        &:last-of-type{
+            img:first-of-type{
+                height: 12vh;
+            }
+            img:nth-of-type(2){
+                height: 12vh;
+            }
+            img:nth-of-type(3){
+                height: 12vh;
+            }
+            img:last-of-type{
+                height: 12vh;
+            }
+        }
+        p:first-of-type{
+            width: 100%;
+            height: 3vh;
+            text-align: left;
+            font-family: 'Euclid Circular A Medium';
+            font-size: 2vh;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .Clients{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: #F4F4F4;
+    p:first-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        font-size: 5vw;
+    }
+    p:last-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 1.3vw;
+    }
+    div{
+        width: 90%;
+        height: 16vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &:first-of-type{
+            img:first-of-type{
+                height: 5vh;
+            }
+            img:nth-of-type(2){
+                height: 5vh;
+            }
+            img:nth-of-type(3){
+                height: 5vh;
+            }
+            img:nth-of-type(4){
+                height: 5vh;
+            }
+            img:last-of-type{
+                height: 5vh;
+            }
+        }
+        &:last-of-type{
+            img:first-of-type{
+                height: 8vh;
+            }
+            img:nth-of-type(2){
+                height: 8vh;
+            }
+            img:nth-of-type(3){
+                height: 8vh;
+            }
+            img:last-of-type{
+                height: 8vh;
+            }
+        }
+        p:first-of-type{
+            width: 100%;
+            height: 3vh;
+            text-align: left;
+            font-family: 'Euclid Circular A Medium';
+            font-size: 1.5vw;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px){
+    .Clients{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: #F4F4F4;
+    p:first-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        font-size: 4vw;
+    }
+    p:last-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 1.3vw;
+    }
+    div{
+        width: 90%;
+        height: 12vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &:first-of-type{
+            img:first-of-type{
+                height: 3.5vw;
+            }
+            img:nth-of-type(2){
+                height: 3.5vw;
+            }
+            img:nth-of-type(3){
+                height: 4vh;
+            }
+            img:nth-of-type(4){
+                height: 3.5vw;
+            }
+            img:last-of-type{
+                height: 3.5vw;
+            }
+        }
+        &:last-of-type{
+            img:first-of-type{
+                height: 7vw;
+            }
+            img:nth-of-type(2){
+                height: 7vw;
+            }
+            img:nth-of-type(3){
+                height: 7vw;
+            }
+            img:last-of-type{
+                height: 7vw;
+            }
+        }
+        p:first-of-type{
+            width: 100%;
+            height: 3vh;
+            text-align: left;
+            font-family: 'Euclid Circular A Medium';
+            font-size: 1.5vw;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px){
+    .Clients{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: #F4F4F4;
+    p:first-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        font-size: 8vw;
+    }
+    p:last-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 2.4vw;
+    }
+    div{
+        width: 90%;
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &:first-of-type{
+            img:first-of-type{
+                height: 9vw;
+            }
+            img:nth-of-type(2){
+                height: 9vw;
+            }
+            img:nth-of-type(3){
+                height: 22vw;
+            }
+            img:nth-of-type(4){
+                height: 9vw;
+            }
+            img:last-of-type{
+                height: 9vw;
+            }
+        }
+        &:last-of-type{
+            img:first-of-type{
+                height: 15vw;
+            }
+            img:nth-of-type(2){
+                height: 12vw;
+            }
+            img:nth-of-type(3){
+                height: 17vw;
+            }
+            img:last-of-type{
+                height: 17vw;
+            }
+        }
+        p:first-of-type{
+            width: 100%;
+            height: 3vh;
+            text-align: left;
+            font-family: 'Euclid Circular A Medium';
+            font-size: 4vw;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 375px){
+    .Clients{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: #F4F4F4;
+    p:first-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        font-size: 8vw;
+    }
+    p:last-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 2.4vw;
+    }
+    div{
+        width: 90%;
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &:first-of-type{
+            img:first-of-type{
+                height: 9vw;
+            }
+            img:nth-of-type(2){
+                height: 9vw;
+            }
+            img:nth-of-type(3){
+                height: 22vw;
+            }
+            img:nth-of-type(4){
+                height: 9vw;
+            }
+            img:last-of-type{
+                height: 9vw;
+            }
+        }
+        &:last-of-type{
+            img:first-of-type{
+                height: 15vw;
+            }
+            img:nth-of-type(2){
+                height: 12vw;
+            }
+            img:nth-of-type(3){
+                height: 17vw;
+            }
+            img:last-of-type{
+                height: 17vw;
+            }
+        }
+        p:first-of-type{
+            width: 100%;
+            height: 3vh;
+            text-align: left;
+            font-family: 'Euclid Circular A Medium';
+            font-size: 4vw;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 320px){
+    .Clients{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: #F4F4F4;
+    p:first-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        font-size: 8vw;
+    }
+    p:last-of-type{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 2.4vw;
+    }
+    div{
+        width: 90%;
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &:first-of-type{
+            img:first-of-type{
+                height: 9vw;
+            }
+            img:nth-of-type(2){
+                height: 9vw;
+            }
+            img:nth-of-type(3){
+                height: 22vw;
+            }
+            img:nth-of-type(4){
+                height: 9vw;
+            }
+            img:last-of-type{
+                height: 9vw;
+            }
+        }
+        &:last-of-type{
+            img:first-of-type{
+                height: 15vw;
+            }
+            img:nth-of-type(2){
+                height: 12vw;
+            }
+            img:nth-of-type(3){
+                height: 17vw;
+            }
+            img:last-of-type{
+                height: 17vw;
+            }
+        }
+        p:first-of-type{
+            width: 100%;
+            height: 3vh;
+            text-align: left;
+            font-family: 'Euclid Circular A Medium';
+            font-size: 4vw;
+        }
+    }
+}
+}

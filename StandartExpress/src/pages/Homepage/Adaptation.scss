@@ -1,0 +1,572 @@
+main{
+    width: 100%;
+    height: 67vh;
+    background-image: url(src/pages/Homepage/components/FirstScreen/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 35vw;
+        height: 47%;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        p:first-of-type{
+            width: 32vw;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 6.8vh;
+            line-height: 7.5vh;
+            span{
+                font-size: 4.2vh;
+                padding: 1.4vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 2.16vh;
+        }
+        button{
+            width: 17.7vw;
+            height: 8.8vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 2.3vh;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 3vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 38vw;
+        height: 85%;
+    }
+}
+
+
+
+.Dignity{
+    width: 100%;
+    height: 17vh;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 19vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img{
+            width: 3.5vw;
+        }
+        p{
+            margin-left: 1.5vw;
+            font-family: 'Euclid Circular A SemiBold';
+            font-size: 2.7vh;
+            width: 11vw;
+        }
+        &:last-of-type{
+            p{
+                width: 14vw;
+            }
+        }
+    }
+}
+
+
+
+.rutube-player-container{
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    iframe{
+        width: 77vw;
+        height: 62vh;
+        border: none;
+        border-radius: 3vh;
+    }
+}
+
+
+
+.TextSec{
+    width: 100%;
+    height: 62vh;
+    background-image: url(src/pages/Homepage/components/TextSec/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    p:first-of-type{
+        font-family: 'Euclid Circular A Bold';
+        font-size: 4.5vh;
+        width: 55vw;
+        padding-left: 28vw;
+        padding-right: 28vw;
+        text-align: center;
+    }
+    p:last-of-type{
+        text-align: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3.5vh;
+        margin-top: 2vh;
+    }
+}
+
+
+
+.ServicePrice{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-content: space-around;
+    background-color: #F4F4F4;
+    transition: height 0.5s ease;
+    position: relative;
+    p{
+        width: 100%;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        font-size: 5.2vh;
+    }
+    div{
+        width: 70vw;
+        height: 9vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background-color: white;
+        border: 0.5vh solid white;
+        transition: 0.5s;
+        border-radius: 2.5vh;
+        &:hover{
+            border: 0.5vh solid #ED9121;
+        }
+        p{
+            text-align: start;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                color: #ED9121;
+                transition: 0.3s;
+            }
+            &:first-of-type{
+                width: 54vw;
+                height: 100%;
+                font-size: 2vh;
+                display: flex;
+                align-items: center;
+                font-family: 'Euclid Circular A SemiBold';
+            }
+            &:last-of-type{
+                width: 15vw;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 3vh;
+                font-family: 'Euclid Circular A Bold';
+                cursor: default;
+                &:hover{
+                    color: black;
+                    transition: 0.0s;
+                }
+                button{
+                    width: 7vw;
+                    height: 6vh;
+                    cursor: pointer;
+                    font-family: 'Euclid Circular A SemiBold';
+                    font-size: 1.8vh;
+                    border: 0.3vh solid #ED9121;
+                    color: #ED9121;
+                    background-color: rgba(0, 0, 0, 0);
+                    border-radius: 5vh;
+                    transition: 0.3s;
+                    &:hover{
+                        color: white;
+                        background-color: #ED9121;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+    
+    .show-more-button {
+        width: 15vw;
+        height: 7vh;
+        cursor: pointer;
+        font-family: 'Euclid Circular A SemiBold';
+        font-size: 2.2vh;
+        border-radius: 5vh;
+        transition: 0.3s;
+        margin: 5vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 0.3vh solid #ED9121;
+        color: #ED9121;
+        background-color: rgba(0, 0, 0, 0);
+        &:hover{
+            color: white;
+            background-color: #ED9121;
+            transition: 0.3s;
+        }
+    }
+}
+
+
+
+.Calculator {
+    width: 100%;
+    height: 89vh;
+    background-image: url(src/components/Calculator/images/bg.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    div:first-of-type{
+        width: 42%;
+        height: 18vh;
+        p{
+            width: 100%;
+            text-align: center;
+            color: white;
+            &:first-of-type{
+                font-family: 'Euclid Circular A Bold';
+                font-size: 5vh;
+            }
+            &:last-of-type{
+                font-family: 'Euclid Circular A Medium';
+                font-size: 2.5vh;
+                line-height: 5vh;
+            }
+            span{
+                font-size: 2.7;
+                background-color: #ff6b00;
+                padding: 0.75vh;
+                border-radius: 5vh;
+                font-family: 'Euclid Circular A Bold';
+            }
+        }
+    }
+    div:last-of-type{
+        width: 76%;
+        height: 40vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        div{
+            width: 22vw;
+            padding: 2vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            align-items: center;
+            align-content: space-around;
+            background-color: white;
+            border: 0.3vh solid #ff6b00;
+            border-radius: 2vh;
+            font-family: 'Euclid Circular A Regular';
+            &:first-of-type, &:nth-of-type(2), &:nth-of-type(3){
+                height: 10vh;
+            }
+            &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(6){
+                height: 5vh;
+            }
+            &:nth-of-type(7), &:last-of-type{
+                height: 3vh;
+                display: flex;
+                align-items: center;
+                align-content: center;
+            }
+            input, select{
+                width: 19vw;
+                height: 5vh;
+                border: none;
+                margin-left: 1vw;
+                font-size: 2vh;
+
+            }
+            img{
+                width: 2vw;
+                height: 4vh;
+            }
+            p{
+                width: 100%;
+                color: rgba(0, 0, 0, 0.6);
+                font-family: 'Euclid Circular A Regular';
+                font-size: 1.75vh;
+                &:first-of-type{
+                    text-align: start;
+                    font-size: 1.75vh;
+                    font-family: 'Euclid Circular A Regular';
+                }
+            }
+        }
+        button{
+            width: 24vw;
+            height: 7vh;
+            padding-inline: 4vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #ED9121;
+            font-size: 2.2vh;
+            border-radius: 2vh;
+            border: none;
+            display: flex;
+            color: white;
+            cursor: pointer;
+            font-family: 'Euclid Circular A SemiBold';
+            img{
+                width: 1.2vw;
+                height: 2.75vh;
+            }
+        }
+    }
+}
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  
+    .modal-content {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  
+      p {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #333;
+      }
+  
+      .callback-message {
+        font-weight: bold;
+        color: #ff6b00;
+        font-size: 20px;
+      }
+    }
+  }
+  
+
+// Медиа-запрос для 1440x1080
+@media screen and (max-width: 1440px) {
+    main {
+        height: 50.25vh; // Уменьшено на 25%
+        
+        div {
+            width: 46.25vw; // Увеличено на 25%
+            height: 35.25%;
+            
+            p:first-of-type {
+                width: 42.5vw; // Увеличено на 25%
+                font-size: 5.1vh; // Уменьшено на 25%
+                line-height: 5.625vh;
+                
+                span {
+                    font-size: 3.15vh;
+                    padding: 1.05vh;
+                }
+            }
+            
+            p:last-of-type {
+                font-size: 1.62vh;
+            }
+            
+            button {
+                width: 23.125vw;
+                height: 6.6vh;
+                font-size: 1.725vh;
+                
+                img {
+                    width: 1.625vw;
+                    height: 2.25vh;
+                }
+            }
+        }
+        
+        img {
+            width: 47.5vw;
+            height: 63.75%;
+        }
+    }
+
+    .Dignity {
+        height: 12.75vh;
+        
+        div {
+            width: 23.75vw;
+            
+            img {
+                width: 4.375vw;
+            }
+            
+            p {
+                margin-left: 1.875vw;
+                font-size: 2.025vh;
+                width: 13.75vw;
+            }
+            
+            &:last-of-type p {
+                width: 17.5vw;
+            }
+        }
+    }
+
+    .rutube-player-container {
+        height: 54.75vh;
+        
+        iframe {
+            width: 96.25vw;
+            height: 46.5vh;
+        }
+    }
+
+    .TextSec {
+        height: 46.5vh;
+        
+        p:first-of-type {
+            font-size: 3.375vh;
+            width: 68.75vw;
+            padding-left: 35vw;
+            padding-right: 35vw;
+        }
+        
+        p:last-of-type {
+            font-size: 2.625vh;
+        }
+    }
+
+    .ServicePrice {
+        height: 82.5vh;
+        
+        p {
+            font-size: 3.9vh;
+        }
+        
+        div {
+            width: 87.5vw;
+            height: 6.75vh;
+            
+            p:first-of-type {
+                width: 67.5vw;
+                font-size: 1.5vh;
+            }
+            
+            p:last-of-type {
+                width: 18.75vw;
+                font-size: 2.25vh;
+                
+                button {
+                    width: 8.75vw;
+                    height: 4.5vh;
+                    font-size: 1.35vh;
+                }
+            }
+        }
+        
+        .show-more-button {
+            width: 18.75vw;
+            height: 5.25vh;
+            font-size: 1.65vh;
+        }
+    }
+
+    .Calculator {
+        height: 66.75vh;
+        
+        div:first-of-type {
+            height: 13.5vh;
+            
+            p:first-of-type {
+                font-size: 3.75vh;
+            }
+            
+            p:last-of-type {
+                font-size: 1.875vh;
+                line-height: 3.75vh;
+            }
+        }
+        
+        div:last-of-type {
+            width: 95vw;
+            height: 30vh;
+            
+            div {
+                width: 27.5vw;
+                
+                &:first-of-type, &:nth-of-type(2), &:nth-of-type(3) {
+                    height: 7.5vh;
+                }
+                
+                &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(6) {
+                    height: 3.75vh;
+                }
+                
+                input, select {
+                    width: 23.75vw;
+                    font-size: 1.5vh;
+                }
+                
+                p {
+                    font-size: 1.3125vh;
+                }
+            }
+            
+            button {
+                width: 30vw;
+                height: 5.25vh;
+                font-size: 1.65vh;
+                
+                img {
+                    width: 1.5vw;
+                    height: 2.0625vh;
+                }
+            }
+        }
+    }
+}

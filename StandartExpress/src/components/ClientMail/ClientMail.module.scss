@@ -1,0 +1,457 @@
+.ClientMail{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(src/components/ClientMail/images/bg.png);
+    align-content: space-evenly;
+    justify-content: center;
+    
+    p{
+        width: 40%;
+        font-size: 5vh;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        margin-bottom: 2vh;
+        color: white;
+    }
+    
+    .mySwiper{
+        width: 66vw;
+        height: 46vh;
+        
+        img{
+            width: 15vw;
+            height: 22vw;
+        }
+    }
+    
+    .navigationButtons {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 0.3vw;
+            margin-right: 0.3vw;
+        }
+    }
+    
+.swiperbuttonPrev{
+        width: 2.5vw;
+        height: 5vh;
+        margin-right: 1vw;
+    }
+    .swiperbuttonNext{
+        width: 2.5vw;
+        height: 5vh;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        border-radius: 15vh;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+                &:hover {
+            background-color: #ED9121;
+            color: white;
+            border-color: #ED9121;
+            transition: 0.3s;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .ClientMail{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(src/components/ClientMail/images/bg.png);
+    align-content: space-evenly;
+    justify-content: center;
+    p{
+        width: 60%;
+        font-size: 5vh;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        margin-bottom: 2vh;
+        color: white;
+    }
+    
+    .mySwiper{
+        width: 66vw;
+        height: 37vh;
+        img{
+            width: 16vw;
+            height: 22vw;
+        }
+    }
+    .navigationButtons {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 0.3vw;
+            margin-right: 0.3vw;
+        }
+    }
+    
+.swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        width: 3vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+                &:hover {
+            background-color: #ED9121;
+            color: white;
+            border-color: #ED9121;
+            transition: 0.3s;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .ClientMail{
+    width: 100%;
+    height: 67vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(src/components/ClientMail/images/bg.png);
+    align-content: space-evenly;
+    justify-content: center;
+    p{
+        width: 70%;
+        font-size: 5vh;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        margin-bottom: 2vh;
+        color: white;
+    }
+    
+    .mySwiper{
+        width: 80vw;
+        height: 31vh;
+        img{
+            width: 18vw;
+            height: 26vw;
+        }
+    }
+    .navigationButtons {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 0.3vw;
+            margin-right: 0.3vw;
+        }
+    }
+    
+.swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        width: 4vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+                &:hover {
+            background-color: #ED9121;
+            color: white;
+            border-color: #ED9121;
+            transition: 0.3s;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .ClientMail{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(src/components/ClientMail/images/bg.png);
+    align-content: space-evenly;
+    justify-content: center;
+    p{
+        width: 75%;
+        font-size: 4vh;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        margin-bottom: 2vh;
+        color: white;
+    }
+    .mySwiper{
+        width: 90vw;
+        height: 25vh;
+        img{
+            width: 19.5vw;
+            height: 28vw;
+        }
+    }
+    .navigationButtons {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 0.3vw;
+            margin-right: 0.3vw;
+        }
+    }
+    
+.swiperbuttonPrev{
+        margin-right: 1vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        width: 5.5vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+                &:hover {
+            background-color: #ED9121;
+            color: white;
+            border-color: #ED9121;
+            transition: 0.3s;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .ClientMail{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(src/components/ClientMail/images/bg.png);
+    align-content: space-evenly;
+    justify-content: center;
+    p{
+        width: 85%;
+        font-size: 2.5vh;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        margin-bottom: 2vh;
+        color: white;
+    }
+    .mySwiper{
+        width: 90vw;
+        height: 42vh;
+        img{
+            width: 60vw;
+            height: 85vw;
+        }
+    }
+    .navigationButtons {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 0.3vw;
+            margin-right: 0.3vw;
+        }
+    }
+.swiperbuttonPrev{
+        margin-right: 2vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        width: 10vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+                &:hover {
+            background-color: #ED9121;
+            color: white;
+            border-color: #ED9121;
+            transition: 0.3s;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .ClientMail{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(src/components/ClientMail/images/bg.png);
+    align-content: space-evenly;
+    justify-content: center;
+    p{
+        width: 85%;
+        font-size: 2.2vh;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        margin-bottom: 2vh;
+        color: white;
+    }
+    .mySwiper{
+        width: 90vw;
+        height: 37vh;
+        img{
+            width: 60vw;
+            height: 85vw;
+        }
+    }
+    .navigationButtons {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 0.3vw;
+            margin-right: 0.3vw;
+        }
+    }
+.swiperbuttonPrev{
+        margin-right: 2vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        width: 12vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+                &:hover {
+            background-color: #ED9121;
+            color: white;
+            border-color: #ED9121;
+            transition: 0.3s;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .ClientMail{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(src/components/ClientMail/images/bg.png);
+    align-content: space-evenly;
+    justify-content: center;
+    p{
+        width: 85%;
+        font-size: 1.8vh;
+        text-align: center;
+        font-family: 'Euclid Circular A Bold';
+        margin-bottom: 2vh;
+        color: white;
+    }
+    .mySwiper{
+        width: 90vw;
+        height: 32vh;
+        img{
+            width: 60vw;
+            height: 85vw;
+        }
+    }
+    .navigationButtons {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 0.3vw;
+            margin-right: 0.3vw;
+        }
+    }
+.swiperbuttonPrev{
+        margin-right: 2vw;
+    }
+    .swiperbuttonPrev, .swiperbuttonNext{
+        width: 14vw;
+        height: 5vh;
+        border-radius: 15vh;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0.2vh solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Euclid Circular A Regular';
+        font-size: 3vh;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+                &:hover {
+            background-color: #ED9121;
+            color: white;
+            border-color: #ED9121;
+            transition: 0.3s;
+        }
+    }
+}
+}

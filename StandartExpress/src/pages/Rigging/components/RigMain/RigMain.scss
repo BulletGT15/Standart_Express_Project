@@ -1,0 +1,715 @@
+.RigMain{
+    width: 100%;
+    height: 63.5vh;
+    background-image: url(src/pages/Rigging/components/RigMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 35vw;
+        height: 47%;
+        padding-right: 8vw;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        p:first-of-type{
+            width: 33vw;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 6.5vh;
+            line-height: 7.5vh;
+            span{
+                font-size: 4.2vh;
+                padding: 1.4vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 2.16vh;
+        }
+        button{
+            width: 17.7vw;
+            height: 8.8vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 2.3vh;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 3vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 38vw;
+        height: 85%;
+    }
+}
+.RigDignities{
+    width: 100%;
+    height: 16.5vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+    div{
+        width: 62vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 2.5vh;
+            font-family: 'Euclid Circular A SemiBold';
+            &:first-of-type{
+                width: 17vw;
+            }
+            &:nth-of-type(2){
+                width: 20vw;
+            }
+            &:last-of-type{
+                width: 15vw;
+            }
+            img{
+                width: 3vw;
+                height: 6vh;
+                padding-right: 1.5vw;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1440px){
+.RigMain{
+    width: 100%;
+    height: 60vh;
+    background-image: url(src/pages/Rigging/components/RigMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 36vw;
+        height: 61%;
+        padding-right: 8vw;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        p:first-of-type{
+            width: 35vw;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3.8vw;
+            line-height: 7.5vh;
+            span{
+                font-size: 2.5vw;
+                padding: 1.2vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.2vw;
+        }
+        button{
+            width: 17.7vw;
+            height: 8vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 1.2vw;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 2.8vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 35vw;
+        height: 70%;
+    }
+}
+.RigDignities{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+    div{
+        width: 62vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 1.4vw;
+            font-family: 'Euclid Circular A SemiBold';
+            &:first-of-type{
+                width: 17vw;
+            }
+            &:nth-of-type(2){
+                width: 20vw;
+            }
+            &:last-of-type{
+                width: 17vw;
+            }
+            img{
+                width: 4vw;
+                height: 6vh;
+                padding-right: 1.5vw;
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px){
+.RigMain{
+    width: 100%;
+    height: 45vh;
+    background-image: url(src/pages/Rigging/components/RigMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 34vw;
+        height: 58%;
+        padding-right: 8vw;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        p:first-of-type{
+            width: 33vw;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3.5vw;
+            line-height: 5vh;
+            span{
+                font-size: 2.2vw;
+                padding: 1vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.2vw;
+        }
+        button{
+            width: 17.5vw;
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 1.2vw;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 2.5vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 35vw;
+        height: 65%;
+    }
+}
+.RigDignities{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+    div{
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 1.4vw;
+            font-family: 'Euclid Circular A SemiBold';
+            &:first-of-type{
+                width: 17vw;
+            }
+            &:nth-of-type(2){
+                width: 18vw;
+            }
+            &:last-of-type{
+                width: 18vw;
+            }
+            img{
+                width: 5vw;
+                height: 6vh;
+                padding-right: 1.5vw;
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px){
+.RigMain{
+    width: 100%;
+    height: 32vh;
+    background-image: url(src/pages/Rigging/components/RigMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 34vw;
+        height: 52%;
+        padding-right: 6vw;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        p:first-of-type{
+            width: 33vw;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3vw;
+            line-height: 4vh;
+            span{
+                font-size: 2vw;
+                padding: 0.8vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.2vw;
+        }
+        button{
+            width: 17.5vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 1.1vw;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 1.5vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 35vw;
+        height: 65%;
+    }
+}
+.RigDignities{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+    div{
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 1.4vw;
+            font-family: 'Euclid Circular A SemiBold';
+            &:first-of-type{
+                width: 17vw;
+            }
+            &:nth-of-type(2){
+                width: 18vw;
+            }
+            &:last-of-type{
+                width: 18vw;
+            }
+            img{
+                width: 5vw;
+                height: 4vh;
+                padding-right: 1.5vw;
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px){
+.RigMain{
+    width: 100%;
+    height: 66vh;
+    background-image: url(src/pages/Rigging/components/RigMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 80%;
+        height: 45%;
+        padding-right: 6vw;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        p:first-of-type{
+            width: 100%;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 9vw;
+            line-height: 6vh;
+            span{
+                font-size: 8vw;
+                padding: 0.8vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            width: 100%;
+            font-family: 'Euclid Circular A Regular';
+            font-size: 4.2vw;
+        }
+        button{
+            width: 50vw;
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3vw;
+            border-radius: 5vh;
+            img{
+                width: 3.5vw;
+                height: 2.5vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 80%;
+        height: 40%;
+    }
+}
+.RigDignities{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+    div{
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            gap: 1vh;
+            font-size: 2.5vw;
+            text-align: center;
+            font-family: 'Euclid Circular A SemiBold';
+            &:first-of-type{
+                width: 17vw;
+            }
+            &:nth-of-type(2){
+                width: 18vw;
+            }
+            &:last-of-type{
+                width: 22vw;
+            }
+            img{
+                margin-top: 2vh;
+                width: 9vw;
+                height: 4vh;
+                padding-right: 1.5vw;
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 375px){
+.RigMain{
+    width: 100%;
+    height: 66vh;
+    background-image: url(src/pages/Rigging/components/RigMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 80%;
+        height: 50%;
+        padding-right: 6vw;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        p:first-of-type{
+            width: 100%;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 9vw;
+            line-height: 6vh;
+            span{
+                font-size: 8vw;
+                padding: 0.8vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            width: 100%;
+            font-family: 'Euclid Circular A Regular';
+            font-size: 4.2vw;
+        }
+        button{
+            width: 50vw;
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3vw;
+            border-radius: 5vh;
+            img{
+                width: 3.5vw;
+                height: 2.5vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 80%;
+        height: 40%;
+    }
+}
+.RigDignities{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+    div{
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            gap: 1vh;
+            font-size: 2.6vw;
+            text-align: center;
+            font-family: 'Euclid Circular A SemiBold';
+            &:first-of-type{
+                width: 19vw;
+            }
+            &:nth-of-type(2){
+                width: 20vw;
+            }
+            &:last-of-type{
+                width: 25vw;
+            }
+            img{
+                margin-top: 1.5vh;
+                width: 9vw;
+                height: 4vh;
+                padding-right: 1.5vw;
+            }
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 320px){
+.RigMain{
+    width: 100%;
+    height: 60vh;
+    background-image: url(src/pages/Rigging/components/RigMain/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 80%;
+        height: 45%;
+        padding-right: 6vw;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        p:first-of-type{
+            width: 100%;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 9vw;
+            line-height: 5vh;
+            span{
+                font-size: 8vw;
+                padding: 0.8vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            width: 100%;
+            font-family: 'Euclid Circular A Regular';
+            font-size: 4.2vw;
+        }
+        button{
+            width: 50vw;
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3vw;
+            border-radius: 5vh;
+            img{
+                width: 4.5vw;
+                height: 2.5vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 80%;
+        height: 40%;
+    }
+}
+.RigDignities{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+    div{
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            gap: 1vh;
+            font-size: 2.6vw;
+            text-align: center;
+            font-family: 'Euclid Circular A SemiBold';
+            &:first-of-type{
+                width: 19vw;
+            }
+            &:nth-of-type(2){
+                width: 20vw;
+            }
+            &:last-of-type{
+                width: 25vw;
+            }
+            img{
+                margin-top: 1vh;
+                width: 9vw;
+                height: 3.2vh;
+                padding-right: 1.5vw;
+            }
+        }
+    }
+}
+}

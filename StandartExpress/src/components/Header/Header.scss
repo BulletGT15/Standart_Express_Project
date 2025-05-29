@@ -1,0 +1,1025 @@
+header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-color: #F4F4F4;
+    div{
+        width: 75%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        height: 11vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        div:first-of-type{
+      height: 5vh;
+      width: 2vw;
+      padding: 0;
+      margin: 0;
+      background-image: url(src/components/Header/images/menu.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      cursor: pointer; // Добавляем указатель при наведении
+        }
+        div:nth-of-type(2){
+            width: 24vw;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            p, .link-butt{
+                font-family: 'Euclid Circular A Medium';
+                font-size: 1.9vh;
+                padding: 1.3vh;
+                color: rgba(0, 0, 0, 0.7);
+                transition: 0.3s;
+                cursor: pointer;
+                text-decoration: none;
+                &:hover{
+                    background-color: #EFEFEF;
+                    border-radius: 2.5vh;
+                    transition: 0.3s;
+                }
+            }
+        }
+        div:nth-of-type(3){
+            width: 13vw;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            align-items: start;
+            img{
+                width: 1.5vw;
+                height: 3vh;
+                margin-top: 3vh;
+            }
+            p{
+                font-family: 'Euclid Circular A Light';
+                margin-top: 3vh;
+                font-size: 1.9vh;
+                margin-left: 0.3vw;
+                span{
+                    font-size: 1.7vh;
+                }
+            }
+        }
+        div:nth-of-type(4){
+            width: 10vw;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            align-items: start;
+            img{
+                width: 1.3vw;
+                height: 2.5vh;
+                margin-top: 3.7vh;
+            }
+            p{
+                font-family: 'Euclid Circular A Light';
+                margin-top: 3.7vh;
+                font-size: 1.9vh;
+                margin-left: 0.6vw;
+                span:first-of-type{
+                    margin-left: 0.3vw;
+                }
+            }
+        }
+        img:first-of-type{
+            width: 2.2vw;
+            height: 4.5vh;  
+        }
+        img:last-of-type{
+            width: 2.2vw;
+            height: 4.5vh;
+        }
+        button{
+            border: none;
+            width: 8vw;
+            height: 6.5vh;
+            border-radius: 4vh;
+            font-size: 1.6vh;
+            font-family: 'Euclid Circular A SemiBold';
+            background-color: #ED9121;
+            cursor: pointer;
+            color: white;
+        }
+        div:last-of-type{
+            width: 6.4vw;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            align-items: start;
+            img{
+                width: 1.2vw;
+                height: 2vh;
+                margin-top: 4vh;
+            }
+            p{
+                font-family: 'Euclid Circular A Medium';
+                margin-top: 3.7vh;
+                font-size: 1.9vh;
+                margin-left: 0.6vw;
+                color: rgba(0, 0, 0, 0.7);
+            }
+        }
+    }
+    nav{
+        width: 75%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width: 9vw;
+            height: 4.5vh;
+        }
+        p, .link-butt{
+            font-family: 'Euclid Circular A Medium';
+            font-size: 1.9vh;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+
+// Медиа-запрос для разрешения 1440x1080
+@media screen and (max-width: 1440px) and (min-width: 1373px) {
+    header {
+        height: 15vh;
+        
+        div {
+            width: 85%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            height: 8.25vh;
+            
+            div:first-of-type {
+                height: 4.5vh;
+                width: 2.5vw;
+            }
+            
+            div:nth-of-type(2) {
+                width: 28vw;
+                
+                p, .link-butt {
+                    font-size: 0.9vw;
+                    padding: 0.975vh;
+                }
+            }
+            
+            div:nth-of-type(3) {
+                width: 13vw;
+                img {
+                    width: 1.875vw;
+                    height: 2.5vh;
+                    margin-top: 2.25vh;
+                }
+                
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.25vh;
+                    
+                    span {
+                        font-size: 0.75vw;
+                    }
+                }
+            }
+            
+            div:nth-of-type(4) {
+                width: 10vw;
+                img {
+                    width: 1.625vw;
+                    height: 2.2vh;
+                    margin-top: 2.775vh;
+                }
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.775vh;
+                }
+            }
+            img:first-of-type,
+            img:last-of-type {
+                width: 2.75vw;
+                height: 3.9vh;
+            }
+            
+            button {
+                width: 10vw;
+                height: 4.875vh;
+                font-size: 0.8vw;
+            }
+            
+            div:last-of-type {
+                width: 8vw;
+                img {
+                    width: 1.5vw;
+                    height: 1.5vh;
+                    margin-top: 3vh;
+                }
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.775vh;
+                }
+            }
+        }
+        
+        nav {
+            width: 85%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            height: 6vh;
+            img {
+                width: 10vw;
+                height: 3.375vh;
+            }
+            p, .link-butt{
+                font-size: 1vw;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1372px) and (min-width: 1101px) {
+    header {
+        height: 15vh;
+        
+        div {
+            width: 85%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            height: 8.25vh;
+            
+            div:first-of-type {
+                height: 4.5vh;
+                width: 2.5vw;
+            }
+            
+            div:nth-of-type(2) {
+                width: 28vw;
+                
+                p, .link-butt {
+                    font-size: 0.9vw;
+                    padding: 0.975vh;
+                }
+            }
+            
+            div:nth-of-type(3) {
+                width: 13vw;
+                img {
+                    width: 1.875vw;
+                    height: 2.5vh;
+                    margin-top: 2.25vh;
+                }
+                
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.25vh;
+                    
+                    span {
+                        font-size: 0.75vw;
+                    }
+                }
+            }
+            
+            div:nth-of-type(4) {
+                width: 10vw;
+                img {
+                    width: 1.625vw;
+                    height: 2.2vh;
+                    margin-top: 2.775vh;
+                }
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.775vh;
+                }
+            }
+            img:first-of-type,
+            img:last-of-type {
+                width: 2.75vw;
+                height: 3.9vh;
+            }
+            
+            button {
+                width: 10vw;
+                height: 4.875vh;
+                font-size: 0.8vw;
+            }
+            
+            div:last-of-type {
+                width: 8vw;
+                img {
+                    width: 1.5vw;
+                    height: 1.5vh;
+                    margin-top: 3vh;
+                }
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.775vh;
+                }
+            }
+        }
+        
+        nav {
+            width: 85%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            height: 6vh;
+            img {
+                width: 10vw;
+                height: 3.375vh;
+            }
+            p, .link-butt{
+                font-size: 1vw;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1101px) and (min-width: 770px) {
+        header {
+        height: 15vh;
+        
+        div {
+            width: 85%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            height: 8.25vh;
+            
+            div:first-of-type {
+                height: 4.5vh;
+                width: 2.5vw;
+            }
+            
+            div:nth-of-type(2) {
+                width: 28vw;
+                
+                p, .link-butt {
+                    font-size: 0.9vw;
+                    padding: 0.975vh;
+                }
+            }
+            
+            div:nth-of-type(3) {
+                width: 13vw;
+                img {
+                    width: 1.875vw;
+                    height: 2.5vh;
+                    margin-top: 2.25vh;
+                }
+                
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.25vh;
+                    
+                    span {
+                        font-size: 0.75vw;
+                    }
+                }
+            }
+            
+            div:nth-of-type(4) {
+                width: 10vw;
+                img {
+                    width: 1.625vw;
+                    height: 2.2vh;
+                    margin-top: 2.775vh;
+                }
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.775vh;
+                }
+            }
+            img:first-of-type,
+            img:last-of-type {
+                width: 3vw;
+                height: 3.5vh;
+            }
+            
+            button {
+                width: 9vw;
+                height: 4.2vh;
+                font-size: 0.8vw;
+            }
+            
+            div:last-of-type {
+                width: 8vw;
+                img {
+                    width: 1.5vw;
+                    height: 1.5vh;
+                    margin-top: 3vh;
+                }
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.775vh;
+                }
+            }
+        }
+        
+        nav {
+            width: 85%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            height: 6vh;
+            img {
+                width: 10vw;
+                height: 3.375vh;
+            }
+            p, .link-butt{
+                font-size: 1vw;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    header {
+        height: 15vh;
+        
+        div {
+            width: 85%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            height: 8.25vh;
+            
+            div:first-of-type {
+                height: 4.5vh;
+                width: 2.5vw;
+            }
+            
+            div:nth-of-type(2) {
+                width: 28vw;
+                
+                p, .link-butt {
+                    font-size: 0.9vw;
+                    padding: 0.975vh;
+                }
+            }
+            
+            div:nth-of-type(3) {
+                width: 13vw;
+                img {
+                    width: 1.875vw;
+                    height: 2.5vh;
+                    margin-top: 2.25vh;
+                }
+                
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.25vh;
+                    
+                    span {
+                        font-size: 0.75vw;
+                    }
+                }
+            }
+            
+            div:nth-of-type(4) {
+                width: 10vw;
+                img {
+                    width: 1.625vw;
+                    height: 2.2vh;
+                    margin-top: 2.775vh;
+                }
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.775vh;
+                }
+            }
+            img:first-of-type,
+            img:last-of-type {
+                width: 3vw;
+                height: 3.5vh;
+            }
+            
+            button {
+                width: 9vw;
+                height: 4.2vh;
+                font-size: 0.8vw;
+            }
+            
+            div:last-of-type {
+                width: 8vw;
+                img {
+                    width: 1.5vw;
+                    height: 1.5vh;
+                    margin-top: 3vh;
+                }
+                p {
+                    font-size: 0.9vw;
+                    margin-top: 2.775vh;
+                }
+            }
+        }
+        
+        nav {
+            width: 85%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            height: 6vh;
+            img {
+                width: 10vw;
+                height: 2.8vh;
+            }
+            p, .link-butt{
+                font-size: 1vw;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 426px){
+    header {
+        height: 12vh;
+        div {
+            width: 100%;
+            height: 6vh;
+            padding: 0;
+            display: flex;
+            justify-content: space-evenly;
+            div:first-of-type {
+                height: 4.5vh;
+                width: 2.5vw;
+            }
+            div:nth-of-type(2) {
+                width: 30vw;
+                p, .link-butt {
+                    font-size: 1vw;
+                    padding: 0.8vh;
+                }
+            }
+            div:nth-of-type(3) {
+                width: 14vw;
+                img{
+                    width: 1.875vw;
+                    height: 2vh;
+                    margin-top: 2.25vh;
+                }
+                p{
+                    font-size: 1vw;
+                    margin-top: 2.25vh;   
+                    span {
+                        font-size: 0.9vw;
+                    }
+                }
+            }
+            
+            div:nth-of-type(4) {
+                width: 11vw;
+                img {
+                    width: 1.625vw;
+                    height: 1.8vh;
+                    margin-top: 2.775vh;
+                }
+                p {
+                    font-size: 1vw;
+                    margin-top: 2.775vh;
+                }
+            }
+            img:first-of-type,
+            img:last-of-type {
+                width: 3vw;
+                height: 3vh;
+            }
+            button {
+                width: 8vw;
+                height: 3.2vh;
+                font-size: 0.7vw;
+            }
+            
+            div:last-of-type {
+                width: 8vw;
+                img {
+                    width: 1.3vw;
+                    height: 1.3vh;
+                    margin-top: 2.2vh;
+                }
+                p {
+                    font-size: 1vw;
+                    margin-top: 2.2vh;
+                }
+            }
+        }
+        
+        nav {
+            width: 100%;
+            padding: 0;
+            justify-content: space-evenly;
+            height: 5vh;
+            img {
+                width: 10vw;
+                height: 2vh;
+            }
+            p, .link-butt{
+                font-size: 1.2vw;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 425px) and (min-width: 376px) {
+    header {
+        height: 7vh; // Увеличено для лучшего отображения
+        div {
+            width: 100%; // Увеличено для мобильного вида
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 7vh; // Увеличено
+            background-color: black;
+            div:first-of-type {
+                height: 4vh;
+                width: 6vw;
+                background-image: url(src/components/Header/images/menu_white.png);
+                background-position: 0 0;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            
+            div:nth-of-type(2) {
+                width: 35vw; // Увеличено
+                display: none;
+                p, .link-butt {
+                    font-size: 1vh; // Уменьшено
+                    padding: 1vh;
+                    color: white;
+                }
+            }
+            
+            div:nth-of-type(3) {
+                width: 33vw; // Увеличено
+                background-image: url(src/components/Header/images/logo_white.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 33vw 4vh;
+                img {
+                    width: 2.8vw;
+                    height: 2.5vh;
+                    margin-top: 2.5vh;
+                    display: none;
+                }
+                
+                p {
+                    font-size: 1vh;
+                    margin-top: 2.5vh;
+                    display: none;
+                }
+            }
+            
+            div:nth-of-type(4) {
+                width: 28vw;
+                height: 3vh;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                line-height: 0;
+                img {
+                    width: 2.5vw;
+                    height: 2.2vh;
+                    margin-top: 3vh;
+                    display: none;
+                }
+                
+                p {
+                    font-size: 1.3vh;
+                    margin: 0;
+                    padding: 0;
+                    color: white;
+                    font-family: 'Euclid Circular A Medium';
+                    span{
+                        display: none;
+                    }
+                }
+            }
+            
+            img:first-of-type, img:last-of-type {
+                width: 2.5vw;
+                height: 4vh;
+                display: none;
+            }
+            
+            button {
+                width: 12vw;
+                height: 4vh;
+                font-size: 1.1vh;
+                display: none;
+            }
+            
+            div:last-of-type {
+                width: 18vw;
+                height: 3vh;
+                padding: 0;
+                margin: 0;
+                img {
+                    width: 1.5vw;
+                    height: 1.8vh;
+                    margin-top: 3.5vh;
+                }
+                
+                p {
+                    font-size: 1.3vh;
+                    margin-top: 0;
+                    color: white;
+                }
+            }
+        }
+        
+        nav {
+            width: 90%;
+            height: 5vh; // Увеличено
+            display: none;
+            img {
+                width: 12vw;
+                height: 2.3vh;
+            }
+            
+            p, .link-butt{
+                font-size: 1vh;
+                margin: 0 1vw; // Добавлены отступы
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 375px) and (min-width: 320px) {
+    header {
+        height: 7vh; // Увеличено для лучшего отображения
+        div {
+            width: 100%; // Увеличено для мобильного вида
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 7vh; // Увеличено
+            background-color: black;
+            div:first-of-type {
+                height: 4vh;
+                width: 6vw;
+                background-image: url(src/components/Header/images/menu_white.png);
+                background-position: 0 0;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            
+            div:nth-of-type(2) {
+                width: 35vw; // Увеличено
+                display: none;
+                p, .link-butt {
+                    font-size: 1vh; // Уменьшено
+                    padding: 1vh;
+                    color: white;
+                }
+            }
+            
+            div:nth-of-type(3) {
+                width: 30vw; // Увеличено
+                height: 100%;
+                background-image: url(src/components/Header/images/logo_white.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 33vw 4vh;
+                img {
+                    width: 2.8vw;
+                    height: 2.5vh;
+                    margin-top: 2.5vh;
+                    display: none;
+                }
+                
+                p {
+                    font-size: 1vh;
+                    margin-top: 2.5vh;
+                    display: none;
+                }
+            }
+            
+            div:nth-of-type(4) {
+                width: 28vw;
+                height: 3vh;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                line-height: 0;
+                img {
+                    width: 2.5vw;
+                    height: 2.2vh;
+                    margin-top: 3vh;
+                    display: none;
+                }
+                
+                p {
+                    font-size: 1.3vh;
+                    margin: 0;
+                    padding: 0;
+                    color: white;
+                    font-family: 'Euclid Circular A Medium';
+                    span{
+                        display: none;
+                    }
+                }
+            }
+            
+            img:first-of-type, img:last-of-type {
+                width: 2.5vw;
+                height: 4vh;
+                display: none;
+            }
+            
+            button {
+                width: 12vw;
+                height: 4vh;
+                font-size: 1.1vh;
+                display: none;
+            }
+            
+            div:last-of-type {
+                width: 18vw;
+                height: 3vh;
+                padding: 0;
+                margin: 0;
+                img {
+                    width: 1.5vw;
+                    height: 1.8vh;
+                    margin-top: 3.5vh;
+                }
+                
+                p {
+                    font-size: 1.3vh;
+                    margin-top: 0;
+                    color: white;
+                }
+            }
+        }
+        
+        nav {
+            width: 90%;
+            height: 5vh; // Увеличено
+            display: none;
+            img {
+                width: 12vw;
+                height: 2.3vh;
+            }
+            
+            p, .link-butt{
+                font-size: 1vh;
+                margin: 0 1vw; // Добавлены отступы
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    header {
+        height: 5vh; // Увеличено для лучшего отображения
+        div {
+            width: 100%; // Увеличено для мобильного вида
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 5vh; // Увеличено
+            background-color: black;
+            div:first-of-type {
+                height: 3vh;
+                width: 6vw;
+                background-image: url(src/components/Header/images/menu_white.png);
+                background-position: 0 0;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            
+            div:nth-of-type(2) {
+                width: 35vw; // Увеличено
+                display: none;
+                p, .link-butt {
+                    font-size: 1vh; // Уменьшено
+                    padding: 1vh;
+                    color: white;
+                }
+            }
+            
+            div:nth-of-type(3) {
+                width: 28vw; // Увеличено
+                height: 2vh;
+                background-image: url(src/components/Header/images/logo_white.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                img {
+                    width: 2.8vw;
+                    height: 2.5vh;
+                    margin-top: 2.5vh;
+                    display: none;
+                }
+                
+                p {
+                    font-size: 1vh;
+                    margin-top: 2.5vh;
+                    display: none;
+                }
+            }
+            
+            div:nth-of-type(4) {
+                width: 34vw;
+                height: 3vh;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                line-height: 0;
+                img {
+                    width: 2.5vw;
+                    height: 2.2vh;
+                    margin-top: 3vh;
+                    display: none;
+                }
+                
+                p {
+                    font-size: 1.2vh;
+                    margin: 0;
+                    padding: 0;
+                    color: white;
+                    font-family: 'Euclid Circular A Medium';
+                    span{
+                        display: none;
+                    }
+                }
+            }
+            
+            img:first-of-type, img:last-of-type {
+                width: 2.5vw;
+                height: 4vh;
+                display: none;
+            }
+            
+            button {
+                width: 12vw;
+                height: 4vh;
+                font-size: 1.1vh;
+                display: none;
+            }
+            
+            div:last-of-type {
+                width: 20vw;
+                height: 3vh;
+                padding: 0;
+                margin: 0;
+                img {
+                    width: 1.5vw;
+                    height: 1.8vh;
+                    margin-top: 3.5vh;
+                }
+                
+                p {
+                    font-size: 1.1vh;
+                    margin-top: 0;
+                    color: white;
+                }
+            }
+        }
+        
+        nav {
+            width: 90%;
+            height: 5vh; // Увеличено
+            display: none;
+            img {
+                width: 12vw;
+                height: 2.3vh;
+            }
+            
+            p, .link-butt{
+                font-size: 1vh;
+                margin: 0 1vw; // Добавлены отступы
+            }
+        }
+    }
+}
+

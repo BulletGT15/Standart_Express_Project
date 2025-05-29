@@ -1,0 +1,77 @@
+.AnotherBlogs{
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    background-color: white;
+    p{
+        width: 100%;
+        font-family: 'Euclid Circular A Bold';
+        text-align: center;
+        font-size: 6vh;
+    }
+    div{
+        width: 80%;
+        height: 57vh;
+        display: flex;
+        justify-content: space-between;
+        .BlockNews{
+            width: 24%;
+            height: 57vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            img{
+                width: 98%;
+            }
+            p{
+                margin: 0;
+            }
+            p:first-of-type{
+                width: 50%;
+                text-align: left;
+                align-content: center;
+                font-family: 'Euclid Circular A SemiBold';
+                color: #00000080;
+                font-size: 2vh;
+                margin: 0;
+            }
+            p:nth-of-type(2){
+                width: 50%;
+                text-align: right;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Euclid Circular A Medium';
+                font-size: 2.3vh;
+                img{
+                width: 1.1vw;
+                height: 2.2vh;
+                }
+            }
+            p:nth-of-type(3){
+                font-family: 'Euclid Circular A Bold';
+                font-size: 2.6vh;
+                text-align: left;
+            }
+            p:last-of-type{
+                font-family: 'Euclid Circular A Regular';
+                color: #000000b3;
+                font-size: 2vh;
+                text-align: left;
+            }
+            button{
+                font-family: 'Euclid Circular A SemiBold';
+                width: 8.5vw;
+                height: 7vh;
+                font-size: 1.8vh;
+                border-radius: 5vh;
+                border: 0.2vh solid #ED9121;
+                color: #ED9121;
+                background-color: #ffffff00;
+            }
+        }
+    }
+}
