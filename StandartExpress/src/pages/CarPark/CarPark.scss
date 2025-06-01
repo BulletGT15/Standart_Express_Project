@@ -56,3 +56,514 @@
         height: 85%;
     }
 }
+
+
+
+@media screen and (max-width: 1440px){
+    .CarPark{
+    width: 100%;
+    height: 47vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 35vw;
+        height: 33vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3.5vw;
+            line-height: 6vh;
+            span{
+                font-size: 2.5vw;
+                padding: 1.4vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.4vw;
+        }
+        button{
+            width: 17.7vw;
+            height: 6.5vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 1.2vw;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 2.3vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 38vw;
+        height: 80%;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1232px){
+    .CarPark{
+    width: 100%;
+    height: 40vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 35vw;
+        height: 30vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3.5vw;
+            line-height: 5vh;
+            span{
+                font-size: 2.5vw;
+                padding: 1.4vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.4vw;
+        }
+        button{
+            width: 17.7vw;
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 1.1vw;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 2.3vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 38vw;
+        height: 80%;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .CarPark{
+    width: 100%;
+    height: 33vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 35vw;
+        height: 25vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3.5vw;
+            line-height: 4.5vh;
+            span{
+                font-size: 2.5vw;
+                padding: 1vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.4vw;
+        }
+        button{
+            width: 15vw;
+            height: 5.1vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 1vw;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 1.7vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 38vw;
+        height: 80%;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 896px){
+    .CarPark{
+    width: 100%;
+    height: 27vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 35vw;
+        height: 22vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3.5vw;
+            line-height: 3.7vh;
+            span{
+                font-size: 2.2vw;
+                padding: 0.7vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.4vw;
+        }
+        button{
+            width: 15vw;
+            height: 4.7vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 1vw;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 1.5vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 38vw;
+        height: 80%;
+    }
+}
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .CarPark{
+    width: 100%;
+    height: 24vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 35vw;
+        height: 18vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 3.5vw;
+            line-height: 3vh;
+            span{
+                font-size: 2.5vw;
+                padding: 0.7vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 1.4vw;
+        }
+        button{
+            width: 15vw;
+            height: 3.8vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 1vw;
+            border-radius: 5vh;
+            img{
+                width: 1.3vw;
+                height: 1.5vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 38vw;
+        height: 80%;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px){
+    .CarPark{
+    width: 100%;
+    height: 65vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    div{
+        width: 90%;
+        height: 27vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 10vw;
+            line-height: 4.3vh;
+            span{
+                font-size: 7vw;
+                padding: 0.7vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 4.5vw;
+        }
+        button{
+            width: 45vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 2.8vw;
+            border-radius: 5vh;
+            img{
+                width: 4vw;
+                height: 2vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 90%;
+        height: 27vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 375px){
+    .CarPark{
+    width: 100%;
+    height: 55vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    div{
+        width: 90%;
+        height: 25vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 10vw;
+            line-height: 4.3vh;
+            span{
+                font-size: 7vw;
+                padding: 0.7vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 4.5vw;
+        }
+        button{
+            width: 45vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 2.8vw;
+            border-radius: 5vh;
+            img{
+                width: 4vw;
+                height: 2vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 90%;
+        height: 24vh;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 320px){
+    .CarPark{
+    width: 100%;
+    height: 50vh;
+    background-image: url(src/pages/CarPark/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    div{
+        width: 90%;
+        height: 22vh;
+        padding-right: 0;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p:first-of-type{
+            font-family: 'Euclid Circular A Bold';
+            font-size: 10vw;
+            line-height: 4vh;
+            span{
+                font-size: 7vw;
+                padding: 0.7vh;
+                border-radius: 4vh;
+                background-color: #ED9121;
+                color: white;
+            }
+        }
+        p:last-of-type{
+            font-family: 'Euclid Circular A Regular';
+            font-size: 4vw;
+        }
+        button{
+            width: 45vw;
+            height: 4.2vh;
+            display: flex;
+            align-items: center;
+            border: none;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            font-family: 'Euclid Circular A Bold';
+            font-size: 2.8vw;
+            border-radius: 5vh;
+            img{
+                width: 4vw;
+                height: 2vh;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+    img{
+        width: 90%;
+        height: 20vh;
+    }
+}
+}

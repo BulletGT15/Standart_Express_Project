@@ -24,7 +24,7 @@ function App() {
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/Rigging' element={<Rigging/>}/>
       <Route path='/Vacancies' element={<Vacancies/>}/>
-      <Route path="/login" element={<Auth/>} />
+      <Route path="/login" element={<Auth/>}/>
     </Routes>
     <CtrlD/>
     </>

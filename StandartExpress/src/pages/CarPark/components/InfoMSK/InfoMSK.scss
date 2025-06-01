@@ -23,3 +23,184 @@
         }
     }
 }
+
+
+
+
+@media screen and (max-width: 1440px){
+    .InfoMSK{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    background-image: url(src/pages/CarPark/components/InfoMSK/images/bg.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    p:first-of-type{
+        font-size: 4vw;
+        font-family: 'Euclid Circular A Bold';
+    }
+    p:last-of-type{
+        width: 75%;
+        font-size: 1vw;
+        line-height: 1.5vw;
+        font-family: 'Euclid Circular A Regular';
+        span{
+            font-size: 1vw;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .InfoMSK{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    background-image: url(src/pages/CarPark/components/InfoMSK/images/bg.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    p:first-of-type{
+        font-size: 4vw;
+        font-family: 'Euclid Circular A Bold';
+    }
+    p:last-of-type{
+        width: 75%;
+        font-size: 1vw;
+        line-height: 1.5vw;
+        font-family: 'Euclid Circular A Regular';
+        span{
+            font-size: 1vw;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 768px){
+    .InfoMSK{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    background-image: url(src/pages/CarPark/components/InfoMSK/images/bg.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    p:first-of-type{
+        font-size: 4vw;
+        font-family: 'Euclid Circular A Bold';
+    }
+    p:last-of-type{
+        width: 75%;
+        font-size: 1vw;
+        line-height: 1.5vw;
+        font-family: 'Euclid Circular A Regular';
+        span{
+            font-size: 1vw;
+        }
+    }
+}
+}
+
+
+
+@media screen and (max-width: 425px){
+    .InfoMSK{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    background-image: url(src/pages/CarPark/components/InfoMSK/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    p:first-of-type{
+        font-size: 5vw;
+        font-family: 'Euclid Circular A Bold';
+    }
+    p:last-of-type{
+        width: 90%;
+        font-size: 2.5vw;
+        line-height: 3vw;
+        font-family: 'Euclid Circular A Regular';
+        span{
+            font-size: 2vw;
+        }
+    }
+}
+}
+
+
+
+
+@media screen and (max-width: 375px){
+    .InfoMSK{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    background-image: url(src/pages/CarPark/components/InfoMSK/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    p:first-of-type{
+        font-size: 5vw;
+        font-family: 'Euclid Circular A Bold';
+    }
+    p:last-of-type{
+        width: 90%;
+        font-size: 2.5vw;
+        line-height: 3vw;
+        font-family: 'Euclid Circular A Regular';
+        span{
+            font-size: 2vw;
+        }
+    }
+}
+}
+
+
+@media screen and (max-width: 320px){
+    .InfoMSK{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    background-image: url(src/pages/CarPark/components/InfoMSK/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    p:first-of-type{
+        font-size: 5vw;
+        font-family: 'Euclid Circular A Bold';
+    }
+    p:last-of-type{
+        width: 90%;
+        font-size: 2.5vw;
+        line-height: 3vw;
+        font-family: 'Euclid Circular A Regular';
+        span{
+            font-size: 2vw;
+        }
+    }
+}
+}
